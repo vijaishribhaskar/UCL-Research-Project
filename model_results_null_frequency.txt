@@ -1,0 +1,115 @@
+NULL BASELINE MODEL (FREQ ONLY)
+Predictor: Log Verb Frequency (z-scored)
+DVs: First-Pass RT | Regression-Path RT
+================================================================================
+
+
+================================================================================
+DV: First-Pass Reading Time
+================================================================================
+
+STANDARD OLS:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 log_fp   R-squared:                       0.023
+Model:                            OLS   Adj. R-squared:                  0.022
+Method:                 Least Squares   F-statistic:                     48.09
+Date:                Wed, 03 Jun 2026   Prob (F-statistic):           5.42e-12
+Time:                        13:17:30   Log-Likelihood:                -1169.2
+No. Observations:                2070   AIC:                             2342.
+Df Residuals:                    2068   BIC:                             2354.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      5.6043      0.009    598.720      0.000       5.586       5.623
+freq_z        -0.0649      0.009     -6.935      0.000      -0.083      -0.047
+==============================================================================
+Omnibus:                       45.807   Durbin-Watson:                   1.920
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               48.541
+Skew:                           0.357   Prob(JB):                     2.88e-11
+Kurtosis:                       3.228   Cond. No.                         1.00
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MIXED-EFFECTS LME:
+           Mixed Linear Model Regression Results
+===========================================================
+Model:             MixedLM  Dependent Variable:  log_fp    
+No. Observations:  2070     Method:              REML      
+No. Groups:        1        Scale:               0.1527    
+Min. group size:   2070     Log-Likelihood:      -1067.7045
+Max. group size:   2070     Converged:           Yes       
+Mean group size:   2070.0                                  
+-----------------------------------------------------------
+                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept        5.591    0.023 239.131 0.000  5.545  5.637
+freq_z          -0.072    0.009  -7.958 0.000 -0.090 -0.054
+Participant Var  0.029    0.016                            
+item Var         0.001    0.002                            
+===========================================================
+
+
+LME R-squared:
+  Marginal  R2: 0.0276
+  Conditional R2: 0.1879
+  OLS R2: 0.0227
+
+================================================================================
+DV: Regression-Path Reading Time
+================================================================================
+
+STANDARD OLS:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 log_rp   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.031
+Method:                 Least Squares   F-statistic:                     67.90
+Date:                Wed, 03 Jun 2026   Prob (F-statistic):           3.01e-16
+Time:                        13:17:30   Log-Likelihood:                -1714.2
+No. Observations:                2070   AIC:                             3432.
+Df Residuals:                    2068   BIC:                             3444.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      5.7690      0.012    473.658      0.000       5.745       5.793
+freq_z        -0.1004      0.012     -8.240      0.000      -0.124      -0.076
+==============================================================================
+Omnibus:                      255.102   Durbin-Watson:                   1.917
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              370.719
+Skew:                           0.909   Prob(JB):                     3.16e-81
+Kurtosis:                       3.998   Cond. No.                         1.00
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MIXED-EFFECTS LME:
+           Mixed Linear Model Regression Results
+===========================================================
+Model:             MixedLM  Dependent Variable:  log_rp    
+No. Observations:  2070     Method:              REML      
+No. Groups:        1        Scale:               0.2613    
+Min. group size:   2070     Log-Likelihood:      -1626.9837
+Max. group size:   2070     Converged:           Yes       
+Mean group size:   2070.0                                  
+-----------------------------------------------------------
+                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept        5.756    0.030 188.819 0.000  5.696  5.816
+freq_z          -0.107    0.012  -8.597 0.000 -0.132 -0.083
+Participant Var  0.040    0.017                            
+item Var         0.007    0.005                            
+===========================================================
+
+
+LME R-squared:
+  Marginal  R2: 0.0361
+  Conditional R2: 0.1831
+  OLS R2: 0.0318
