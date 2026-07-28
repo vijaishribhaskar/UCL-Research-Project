@@ -1,0 +1,57 @@
+RESULTS: MODEL (SURPRISAL + VERBTYPE X STRUCTURE + FREQUENCY)
+================================================================================
+
+=== REML Summary for First-Pass RT ===
+                                           Mixed Linear Model Regression Results
+===========================================================================================================================
+Model:                                   MixedLM                       Dependent Variable:                       log_fp    
+No. Observations:                        2070                          Method:                                   REML      
+No. Groups:                              1                             Scale:                                    0.1524    
+Min. group size:                         2070                          Log-Likelihood:                           -1080.5950
+Max. group size:                         2070                          Converged:                                Yes       
+Mean group size:                         2070.0                                                                            
+---------------------------------------------------------------------------------------------------------------------------
+                                                                                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                        5.593    0.030 183.368 0.000  5.533  5.652
+C(VerbType, Treatment('CP'))[T.DP]                                              -0.015    0.033  -0.465 0.642 -0.079  0.049
+C(VerbType, Treatment('CP'))[T.unacc]                                            0.029    0.029   1.004 0.315 -0.028  0.087
+C(structure, Treatment('move'))[T.nomove]                                        0.019    0.029   0.629 0.529 -0.039  0.076
+C(VerbType, Treatment('CP'))[T.DP]:C(structure, Treatment('move'))[T.nomove]    -0.033    0.043  -0.764 0.445 -0.117  0.051
+C(VerbType, Treatment('CP'))[T.unacc]:C(structure, Treatment('move'))[T.nomove] -0.066    0.041  -1.596 0.110 -0.148  0.015
+freq_z                                                                          -0.062    0.010  -6.017 0.000 -0.082 -0.042
+Surprisal_z                                                                      0.015    0.010   1.550 0.121 -0.004  0.035
+Participant Var                                                                  0.029    0.016                            
+item Var                                                                         0.001    0.002                            
+===========================================================================================================================
+
+  Marginal R2 (fixed effects only): 0.0308
+  Conditional R2 (fixed + random):    0.1920
+
+=== REML Summary for Regression-Path RT ===
+                                           Mixed Linear Model Regression Results
+===========================================================================================================================
+Model:                                   MixedLM                       Dependent Variable:                       log_rp    
+No. Observations:                        2070                          Method:                                   REML      
+No. Groups:                              1                             Scale:                                    0.2594    
+Min. group size:                         2070                          Log-Likelihood:                           -1632.7881
+Max. group size:                         2070                          Converged:                                Yes       
+Mean group size:                         2070.0                                                                            
+---------------------------------------------------------------------------------------------------------------------------
+                                                                                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                        5.797    0.040 145.720 0.000  5.719  5.875
+C(VerbType, Treatment('CP'))[T.DP]                                              -0.051    0.043  -1.186 0.235 -0.135  0.033
+C(VerbType, Treatment('CP'))[T.unacc]                                            0.039    0.038   1.026 0.305 -0.036  0.114
+C(structure, Treatment('move'))[T.nomove]                                       -0.056    0.038  -1.460 0.144 -0.132  0.019
+C(VerbType, Treatment('CP'))[T.DP]:C(structure, Treatment('move'))[T.nomove]     0.028    0.056   0.508 0.611 -0.081  0.138
+C(VerbType, Treatment('CP'))[T.unacc]:C(structure, Treatment('move'))[T.nomove] -0.088    0.054  -1.616 0.106 -0.194  0.019
+freq_z                                                                          -0.095    0.014  -6.602 0.000 -0.123 -0.067
+Surprisal_z                                                                      0.013    0.014   0.921 0.357 -0.015  0.041
+Participant Var                                                                  0.040    0.017                            
+item Var                                                                         0.007    0.005                            
+===========================================================================================================================
+
+  Marginal R2 (fixed effects only): 0.0427
+  Conditional R2 (fixed + random):    0.1903
+
