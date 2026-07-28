@@ -1,0 +1,42 @@
+VERBTYPE x STRUCTURE: CROSS-DV MODEL COMPARISON
+================================================================================
+
+NOTE: AIC cannot compare models with different DVs.
+This report uses R2, residual variance, and Cohen's f2 instead.
+
+FIT STATISTICS
+----------------------------------------
+                DV  N obs  N groups  Marginal R2  Conditional R2  Random var (G)  Residual var (R)    ICC  Log-Lik (REML)
+     First-Pass RT   2070        66       0.0119          0.1631          0.0284            0.1571 0.1530        -1097.42
+Regression-Path RT   2070        66       0.0177          0.1381          0.0384            0.2750 0.1226        -1668.29
+
+COEFFICIENT TABLE
+----------------------------------------
+
+Intercept (CP, move)
+  First-Pass:       b=5.620, SE=0.030, z=189.37, p=0.000 ***
+  Regression-Path:  b=5.838, SE=0.037, z=157.72, p=0.000 ***
+
+DP vs CP
+  First-Pass:       b=-0.088, SE=0.031, z=-2.86, p=0.004 **
+  Regression-Path:  b=-0.150, SE=0.041, z=-3.69, p=0.000 ***
+
+unacc vs CP
+  First-Pass:       b=0.015, SE=0.030, z=0.50, p=0.614 
+  Regression-Path:  b=0.017, SE=0.039, z=0.43, p=0.669 
+
+nomove vs move
+  First-Pass:       b=0.022, SE=0.030, z=0.76, p=0.450 
+  Regression-Path:  b=-0.053, SE=0.039, z=-1.35, p=0.178 
+
+DP x nomove
+  First-Pass:       b=-0.033, SE=0.043, z=-0.75, p=0.452 
+  Regression-Path:  b=0.023, SE=0.057, z=0.41, p=0.683 
+
+unacc x nomove
+  First-Pass:       b=-0.075, SE=0.042, z=-1.80, p=0.071 .
+  Regression-Path:  b=-0.097, SE=0.055, z=-1.75, p=0.079 .
+
+Group Var (random)
+  First-Pass:       b=0.181, SE=0.038, z=4.70, p=0.000 ***
+  Regression-Path:  b=0.140, SE=0.031, z=4.52, p=0.000 ***
