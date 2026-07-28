@@ -1,0 +1,60 @@
+LINEAR MIXED EFFECTS MODELS – SURPRISAL AND READING TIMES
+========================================================================
+
+IVs: Surprisal (z-scored) + Verb Frequency (z-scored)
+DVs: First-Pass Reading Time | Regression-Path Reading Time
+Random effects: by-Participant and by-item random intercepts
+Region: Verb interest area
+Transformation: log(RT) applied to both DVs
+
+
+========================================================================
+MODEL 1 – First-Pass Reading Time  (DV: log IA_FIRST_RUN_DWELL_TIME)
+IVs: Surprisal (z-scored) + Verb Frequency (z-scored)   |   Random effects: by-Participant and by-item intercepts
+========================================================================
+           Mixed Linear Model Regression Results
+===========================================================
+Model:             MixedLM  Dependent Variable:  log_fp    
+No. Observations:  2070     Method:              REML      
+No. Groups:        1        Scale:               0.1524    
+Min. group size:   2070     Log-Likelihood:      -1069.5387
+Max. group size:   2070     Converged:           Yes       
+Mean group size:   2070.0                                  
+-----------------------------------------------------------
+                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept        5.591    0.023 237.996 0.000  5.545  5.637
+Surprisal_z      0.019    0.010   1.938 0.053 -0.000  0.038
+freq_z          -0.068    0.009  -7.242 0.000 -0.086 -0.049
+Participant Var  0.029    0.016                            
+item Var         0.001    0.002                            
+===========================================================
+
+  Marginal  R²  (fixed effects only): 0.0294
+  Conditional R² (fixed + random):    0.1907
+
+
+========================================================================
+MODEL 2 – Regression-Path Reading Time  (DV: log IA_REGRESSION_PATH_DURATION)
+IVs: Surprisal (z-scored) + Verb Frequency (z-scored)   |   Random effects: by-Participant and by-item intercepts
+========================================================================
+           Mixed Linear Model Regression Results
+===========================================================
+Model:             MixedLM  Dependent Variable:  log_rp    
+No. Observations:  2070     Method:              REML      
+No. Groups:        1        Scale:               0.2612    
+Min. group size:   2070     Log-Likelihood:      -1629.7035
+Max. group size:   2070     Converged:           Yes       
+Mean group size:   2070.0                                  
+-----------------------------------------------------------
+                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept        5.756    0.031 188.449 0.000  5.696  5.816
+Surprisal_z      0.016    0.014   1.153 0.249 -0.011  0.042
+freq_z          -0.104    0.013  -8.001 0.000 -0.129 -0.078
+Participant Var  0.040    0.017                            
+item Var         0.007    0.005                            
+===========================================================
+
+  Marginal  R²  (fixed effects only): 0.0366
+  Conditional R² (fixed + random):    0.1840
