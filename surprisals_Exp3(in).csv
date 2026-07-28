@@ -1,0 +1,217 @@
+Item,Structure,Verb,Context,Verb,Surprisal
+1,move,CP,The activists that the minister,hypothesized,13.0879364
+1,move,unacc,The activists that the minister,emerged,10.50354004
+1,move,DP,The activists that the minister,applauded,9.680786133
+1,nomove,CP,The activists noticed that the minister,hypothesized,14.27600861
+1,nomove,unacc,The activists noticed that the minister,emerged,10.32566833
+1,nomove,DP,The activists noticed that the minister,applauded,11.42888641
+2,move,CP,The pilot that the investigators,hypothesized,9.776794434
+2,move,unacc,The pilot that the investigators,remained,10.53981018
+2,move,DP,The pilot that the investigators,applauded,12.04890442
+2,nomove,CP,The pilot saw that the investigators,hypothesized,11.44567871
+2,nomove,unacc,The pilot saw that the investigators,remained,8.084960938
+2,nomove,DP,The pilot saw that the investigators,applauded,13.09021759
+3,move,CP,The fugitive that the detective,hypothesized,10.37657166
+3,move,unacc,The fugitive that the detective,fainted,5.234790802
+3,move,DP,The fugitive that the detective,contemplated,11.30679321
+3,nomove,CP,The fugitive saw that the detective,hypothesized,13.44612122
+3,nomove,unacc,The fugitive saw that the detective,fainted,5.873188019
+3,nomove,DP,The fugitive saw that the detective,contemplated,12.42945862
+4,move,CP,The accountant that the investors,agreed,5.513442993
+4,move,unacc,The accountant that the investors,remained,10.91423035
+4,move,DP,The accountant that the investors,heard,6.405822754
+4,nomove,CP,The accountant knew that the investors,agreed,6.855674744
+4,nomove,unacc,The accountant knew that the investors,remained,9.052719116
+4,nomove,DP,The accountant knew that the investors,heard,8.902175903
+5,move,CP,The dictator that the generals,agreed,7.038375854
+5,move,unacc,The dictator that the generals,died,8.051757813
+5,move,DP,The dictator that the generals,saluted,5.353370667
+5,nomove,CP,The dictator observed that the generals,agreed,6.069976807
+5,nomove,unacc,The dictator observed that the generals,died,9.100151062
+5,nomove,DP,The dictator observed that the generals,saluted,5.826091766
+6,move,CP,The lobbyists that the senator,agreed,8.268569946
+6,move,unacc,The lobbyists that the senator,remained,11.80055237
+6,move,DP,The lobbyists that the senator,applauded,10.25175476
+6,nomove,CP,The lobbyists hated that the senator,agreed,7.245651245
+6,nomove,unacc,The lobbyists hated that the senator,remained,8.509117126
+6,nomove,DP,The lobbyists hated that the senator,applauded,11.39815521
+7,move,CP,The child that the nurse,wished,7.597122192
+7,move,unacc,The child that the nurse,disappeared,9.560470581
+7,move,DP,The child that the nurse,visited,6.743728638
+7,nomove,CP,The child guessed that the nurse,wished,8.083129883
+7,nomove,unacc,The child guessed that the nurse,disappeared,10.79947662
+7,nomove,DP,The child guessed that the nurse,visited,9.773429871
+8,move,CP,The leader that the people,wished,7.907669067
+8,move,unacc,The leader that the people,prospered,4.518472195
+8,move,DP,The leader that the people,killed,10.31593323
+8,nomove,CP,The leader saw that the people,wished,7.5078125
+8,nomove,unacc,The leader saw that the people,prospered,4.40883255
+8,nomove,DP,The leader saw that the people,killed,9.272674561
+9,move,CP,The pupil that the teacher,wished,7.181686401
+9,move,unacc,The pupil that the teacher,prospered,4.345906734
+9,move,DP,The pupil that the teacher,heard,6.160964966
+9,nomove,CP,The pupil knew that the teacher,wished,7.986381531
+9,nomove,unacc,The pupil knew that the teacher,prospered,4.419249535
+9,nomove,DP,The pupil knew that the teacher,heard,8.149810791
+10,move,CP,The strategist that the politician,insisted,9.110610962
+10,move,unacc,The strategist that the politician,prospered,4.34988308
+10,move,DP,The strategist that the politician,phoned,5.641773224
+10,nomove,CP,The strategist observed that the politician,insisted,9.145202637
+10,nomove,unacc,The strategist observed that the politician,prospered,4.094394684
+10,nomove,DP,The strategist observed that the politician,phoned,6.0513134
+11,move,CP,The dancers that the choreographer,insisted,7.75478363
+11,move,unacc,The dancers that the choreographer,appeared,7.5573349
+11,move,DP,The dancers that the choreographer,trained,7.116966248
+11,nomove,CP,The dancers disliked that the choreographer,insisted,7.105476379
+11,nomove,unacc,The dancers disliked that the choreographer,appeared,6.954460144
+11,nomove,DP,The dancers disliked that the choreographer,trained,9.255348206
+12,move,CP,The actress that the director,insisted,7.121627808
+12,move,unacc,The actress that the director,vanished,13.66649628
+12,move,DP,The actress that the director,booed,6.441169739
+12,nomove,CP,The actress reported that the director,insisted,6.239189148
+12,nomove,unacc,The actress reported that the director,vanished,12.67824554
+12,nomove,DP,The actress reported that the director,booed,6.881641388
+13,move,CP,The father-in-law that the bride,pretended,10.20836639
+13,move,unacc,The father-in-law that the bride,vanished,10.19828796
+13,move,DP,The father-in-law that the bride,left,6.72693634
+13,nomove,CP,The father-in-law suspected that the bride,pretended,11.09492493
+13,nomove,unacc,The father-in-law suspected that the bride,vanished,10.71336365
+13,nomove,DP,The father-in-law suspected that the bride,left,8.936660767
+14,move,CP,The cheerleader that the nerd,pretended,9.391799927
+14,move,unacc,The cheerleader that the nerd,fainted,5.87084198
+14,move,DP,The cheerleader that the nerd,passed,9.798416138
+14,nomove,CP,The cheerleader saw that the nerd,pretended,10.80020905
+14,nomove,unacc,The cheerleader saw that the nerd,fainted,5.599010468
+14,nomove,DP,The cheerleader saw that the nerd,passed,9.511070251
+15,move,CP,The bully that the girl,pretended,7.429977417
+15,move,unacc,The bully that the girl,disappeared,9.280517578
+15,move,DP,The bully that the girl,hid,8.983001709
+15,nomove,CP,The bully saw that the girl,pretended,9.525939941
+15,nomove,unacc,The bully saw that the girl,disappeared,9.34197998
+15,nomove,DP,The bully saw that the girl,hid,9.453948975
+16,move,CP,The friend that the boy,argued,10.28237915
+16,move,unacc,The friend that the boy,disappeared,7.886726379
+16,move,DP,The friend that the boy,visited,7.216590881
+16,nomove,CP,The friend noticed that the boy,argued,11.09604645
+16,nomove,unacc,The friend noticed that the boy,disappeared,8.381523132
+16,nomove,DP,The friend noticed that the boy,visited,10.77661896
+17,move,CP,The customer that the cashier,argued,9.835189819
+17,move,unacc,The customer that the cashier,erupted,14.59918213
+17,move,DP,The customer that the cashier,called,4.397583008
+17,nomove,CP,The customer noticed that the cashier,argued,10.18566132
+17,nomove,unacc,The customer noticed that the cashier,erupted,13.47605896
+17,nomove,DP,The customer noticed that the cashier,called,5.731582642
+18,move,CP,The secretary that the managers,argued,9.198249817
+18,move,unacc,The secretary that the managers,departed,10.74213409
+18,move,DP,The secretary that the managers,left,6.838485718
+18,nomove,CP,The secretary confirmed that the managers,argued,10.40058899
+18,nomove,unacc,The secretary confirmed that the managers,departed,10.55384064
+18,nomove,DP,The secretary confirmed that the managers,left,7.652061462
+19,move,CP,The models that the photographer,hoped,7.488235474
+19,move,unacc,The models that the photographer,departed,11.13722229
+19,move,DP,The models that the photographer,passed,8.035980225
+19,nomove,CP,The models observed that the photographer,hoped,9.440406799
+19,nomove,unacc,The models observed that the photographer,departed,9.346549988
+19,nomove,DP,The models observed that the photographer,passed,7.972709656
+20,move,CP,The girlfriend that the man,hoped,9.550376892
+20,move,unacc,The girlfriend that the man,departed,11.38735199
+20,move,DP,The girlfriend that the man,phoned,4.326892853
+20,nomove,CP,The girlfriend observed that the man,hoped,10.35710144
+20,nomove,unacc,The girlfriend observed that the man,departed,9.653129578
+20,nomove,DP,The girlfriend observed that the man,phoned,5.035480499
+21,move,CP,The baby that the woman,hoped,9.026412964
+21,move,unacc,The baby that the woman,swooned,4.590164185
+21,move,DP,The baby that the woman,prepared,9.135116577
+21,nomove,CP,The baby saw that the woman,hoped,10.8819046
+21,nomove,unacc,The baby saw that the woman,swooned,4.357002258
+21,nomove,DP,The baby saw that the woman,prepared,9.786766052
+22,move,CP,The statesman that the historian,theorized,5.410926819
+22,move,unacc,The statesman that the historian,swooned,5.155103207
+22,move,DP,The statesman that the historian,lectured,5.503973007
+22,nomove,CP,The statesman liked that the historian,theorized,5.433605194
+22,nomove,unacc,The statesman liked that the historian,swooned,4.922411919
+22,nomove,DP,The statesman liked that the historian,lectured,5.193920135
+23,move,CP,The student that the teacher,theorized,5.682884216
+23,move,unacc,The student that the teacher,swooned,4.995380402
+23,move,DP,The student that the teacher,heard,5.988449097
+23,nomove,CP,The student noticed that the teacher,theorized,6.335523605
+23,nomove,unacc,The student noticed that the teacher,swooned,4.52778244
+23,nomove,DP,The student noticed that the teacher,heard,8.00340271
+24,move,CP,The witness that the judge,theorized,5.857913971
+24,move,unacc,The witness that the judge,persisted,11.64533997
+24,move,DP,The witness that the judge,lectured,4.539852142
+24,nomove,CP,The witness hated that the judge,theorized,6.23207283
+24,nomove,unacc,The witness hated that the judge,persisted,9.867523193
+24,nomove,DP,The witness hated that the judge,lectured,3.768169403
+25,move,CP,The musician that the fan,hinted,10.99278259
+25,move,unacc,The musician that the fan,persisted,11.15932465
+25,move,DP,The musician that the fan,woke,9.366149902
+25,nomove,CP,The musician hated that the fan,hinted,13.1100235
+25,nomove,unacc,The musician hated that the fan,persisted,10.04273224
+25,nomove,DP,The musician hated that the fan,woke,10.86669159
+26,move,CP,The stranger that the lady,hinted,10.68099976
+26,move,unacc,The stranger that the lady,emerged,9.118743896
+26,move,DP,The stranger that the lady,called,5.712371826
+26,nomove,CP,The stranger observed that the lady,hinted,11.21513367
+26,nomove,unacc,The stranger observed that the lady,emerged,9.193977356
+26,nomove,DP,The stranger observed that the lady,called,7.038856506
+27,move,CP,The thugs that the mobster,hinted,10.87290192
+27,move,unacc,The thugs that the mobster,emerged,10.33454132
+27,move,DP,The thugs that the mobster,shot,7.191795349
+27,nomove,CP,The thugs witnessed that the mobster,hinted,11.65834045
+27,nomove,unacc,The thugs witnessed that the mobster,emerged,8.968833923
+27,nomove,DP,The thugs witnessed that the mobster,shot,7.44430542
+28,move,CP,The athlete that the coach,reasoned,11.1427002
+28,move,unacc,The athlete that the coach,prevailed,11.54270935
+28,move,DP,The athlete that the coach,trained,7.786437988
+28,nomove,CP,The athlete noticed that the coach,reasoned,11.77772522
+28,nomove,unacc,The athlete noticed that the coach,prevailed,13.01501465
+28,nomove,DP,The athlete noticed that the coach,trained,9.083297729
+29,move,CP,The lawyer that the defendant,reasoned,13.69641876
+29,move,unacc,The lawyer that the defendant,prevailed,9.067634583
+29,move,DP,The lawyer that the defendant,fought,6.797279358
+29,nomove,CP,The lawyer remembered that the defendant,reasoned,11.45661163
+29,nomove,unacc,The lawyer remembered that the defendant,prevailed,11.0665741
+29,nomove,DP,The lawyer remembered that the defendant,fought,7.720558167
+30,move,CP,The receptionist that the client,reasoned,14.04493713
+30,move,unacc,The receptionist that the client,erupted,14.46115112
+30,move,DP,The receptionist that the client,fought,10.04551697
+30,nomove,CP,The receptionist noticed that the client,reasoned,15.18180084
+30,nomove,unacc,The receptionist noticed that the client,erupted,13.4592514
+30,nomove,DP,The receptionist noticed that the client,fought,11.59009552
+31,move,CP,The princess that the warriors,contended,10.04626465
+31,move,unacc,The princess that the warriors,died,6.086257935
+31,move,DP,The princess that the warriors,killed,4.926528931
+31,nomove,CP,The princess admired that the warriors,contended,11.3775177
+31,nomove,unacc,The princess admired that the warriors,died,7.633789063
+31,nomove,DP,The princess admired that the warriors,killed,7.911056519
+32,move,CP,The veteran that the mayor,contended,10.24901581
+32,move,unacc,The veteran that the mayor,erupted,12.41724396
+32,move,DP,The veteran that the mayor,booed,5.25969696
+32,nomove,CP,The veteran read that the mayor,contended,10.00730133
+32,nomove,unacc,The veteran read that the mayor,erupted,13.35218811
+32,nomove,DP,The veteran read that the mayor,booed,6.502275467
+33,move,CP,The queen that the knight,contended,10.61547852
+33,move,unacc,The queen that the knight,died,5.76499939
+33,move,DP,The queen that the knight,killed,5.916702271
+33,nomove,CP,The queen approved that the knight,contended,11.80246735
+33,nomove,unacc,The queen approved that the knight,died,7.326400757
+33,nomove,DP,The queen approved that the knight,killed,7.89377594
+34,move,CP,The singer that the reporters,speculated,8.986694336
+34,move,unacc,The singer that the reporters,appeared,7.767700195
+34,move,DP,The singer that the reporters,dressed,9.228668213
+34,nomove,CP,The singer hated that the reporters,speculated,10.19947052
+34,nomove,unacc,The singer hated that the reporters,appeared,7.82787323
+34,nomove,DP,The singer hated that the reporters,dressed,8.902351379
+35,move,CP,The criminal that the policewoman,speculated,11.37174225
+35,move,unacc,The criminal that the policewoman,persisted,12.92639923
+35,move,DP,The criminal that the policewoman,shot,4.778678894
+35,nomove,CP,The criminal saw that the policewoman,speculated,11.5949173
+35,nomove,unacc,The criminal saw that the policewoman,persisted,10.46426392
+35,nomove,DP,The criminal saw that the policewoman,shot,7.282936096
+36,move,CP,The businessman that the bankers,speculated,9.728530884
+36,move,unacc,The businessman that the bankers,appeared,9.601226807
+36,move,DP,The businessman that the bankers,phoned,5.398166656
+36,nomove,CP,The businessman observed that the bankers,speculated,10.41749573
+36,nomove,unacc,The businessman observed that the bankers,appeared,8.159309387
+36,nomove,DP,The businessman observed that the bankers,phoned,6.033500671
