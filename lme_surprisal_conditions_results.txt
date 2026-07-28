@@ -1,0 +1,103 @@
+LME MODELS: Surprisal x Conditions -> Reading Times
+========================================================================
+
+IVs: freq_z + Surprisal (z-scored) x VerbType (CP/DP/unacc, ref=CP)
+           x Structure (move/nomove, ref=move)
+DVs: First-Pass RT | Regression-Path RT
+Random effects: by-Participant and by-item random intercepts
+Transformation: log(RT) applied to both DVs
+Region: Verb interest area
+
+
+========================================================================
+MODEL 1 -- First-Pass Reading Time  (DV: log IA_FIRST_RUN_DWELL_TIME)
+IVs: freq_z + Surprisal_z x VerbType (ref=CP) x Structure (ref=move)
+Random effects: by-Participant and by-item random intercepts
+========================================================================
+                                                 Mixed Linear Model Regression Results
+=======================================================================================================================================
+Model:                                       MixedLM                           Dependent Variable:                           log_fp    
+No. Observations:                            2070                              Method:                                       REML      
+No. Groups:                                  1                                 Scale:                                        0.1527    
+Min. group size:                             2070                              Log-Likelihood:                               -1092.7063
+Max. group size:                             2070                              Converged:                                    Yes       
+Mean group size:                             2070.0                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------
+                                                                                            Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                    5.589    0.031 182.481 0.000  5.529  5.649
+C(VerbType, Treatment('CP'))[T.DP]                                                          -0.009    0.036  -0.255 0.799 -0.080  0.061
+C(VerbType, Treatment('CP'))[T.unacc]                                                        0.033    0.030   1.122 0.262 -0.025  0.091
+C(structure, Treatment('move'))[T.nomove]                                                    0.025    0.031   0.809 0.419 -0.036  0.087
+C(VerbType, Treatment('CP'))[T.DP]:C(structure, Treatment('move'))[T.nomove]                -0.044    0.047  -0.931 0.352 -0.136  0.049
+C(VerbType, Treatment('CP'))[T.unacc]:C(structure, Treatment('move'))[T.nomove]             -0.073    0.043  -1.716 0.086 -0.157  0.010
+freq_z                                                                                      -0.060    0.010  -5.794 0.000 -0.081 -0.040
+Surprisal_z                                                                                  0.047    0.026   1.776 0.076 -0.005  0.099
+Surprisal_z:C(VerbType, Treatment('CP'))[T.DP]                                              -0.027    0.038  -0.703 0.482 -0.102  0.048
+Surprisal_z:C(VerbType, Treatment('CP'))[T.unacc]                                           -0.028    0.032  -0.867 0.386 -0.090  0.035
+Surprisal_z:C(structure, Treatment('move'))[T.nomove]                                       -0.037    0.034  -1.062 0.288 -0.104  0.031
+Surprisal_z:C(VerbType, Treatment('CP'))[T.DP]:C(structure, Treatment('move'))[T.nomove]     0.019    0.051   0.376 0.707 -0.081  0.120
+Surprisal_z:C(VerbType, Treatment('CP'))[T.unacc]:C(structure, Treatment('move'))[T.nomove]  0.019    0.043   0.439 0.661 -0.066  0.104
+Participant Var                                                                              0.029    0.016                            
+item Var                                                                                     0.001    0.002                            
+=======================================================================================================================================
+
+  Marginal  R² (fixed effects only): 0.0316
+  Conditional R² (fixed + random):   0.1918
+
+
+========================================================================
+MODEL 2 -- Regression-Path Reading Time  (DV: log IA_REGRESSION_PATH_DURATION)
+IVs: freq_z + Surprisal_z x VerbType (ref=CP) x Structure (ref=move)
+Random effects: by-Participant and by-item random intercepts
+========================================================================
+                                                 Mixed Linear Model Regression Results
+=======================================================================================================================================
+Model:                                       MixedLM                           Dependent Variable:                           log_rp    
+No. Observations:                            2070                              Method:                                       REML      
+No. Groups:                                  1                                 Scale:                                        0.2537    
+Min. group size:                             2070                              Log-Likelihood:                               -1658.8355
+Max. group size:                             2070                              Converged:                                    No        
+Mean group size:                             2070.0                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------
+                                                                                            Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                    5.788    0.057 101.502 0.000  5.676  5.899
+C(VerbType, Treatment('CP'))[T.DP]                                                          -0.055    0.047  -1.163 0.245 -0.147  0.038
+C(VerbType, Treatment('CP'))[T.unacc]                                                        0.045    0.038   1.165 0.244 -0.030  0.120
+C(structure, Treatment('move'))[T.nomove]                                                   -0.047    0.040  -1.152 0.249 -0.126  0.033
+C(VerbType, Treatment('CP'))[T.DP]:C(structure, Treatment('move'))[T.nomove]                 0.025    0.061   0.415 0.678 -0.094  0.145
+C(VerbType, Treatment('CP'))[T.unacc]:C(structure, Treatment('move'))[T.nomove]             -0.096    0.055  -1.743 0.081 -0.204  0.012
+freq_z                                                                                      -0.095    0.015  -6.492 0.000 -0.123 -0.066
+Surprisal_z                                                                                  0.060    0.035   1.682 0.093 -0.010  0.129
+Surprisal_z:C(VerbType, Treatment('CP'))[T.DP]                                              -0.062    0.051  -1.227 0.220 -0.161  0.037
+Surprisal_z:C(VerbType, Treatment('CP'))[T.unacc]                                           -0.029    0.042  -0.692 0.489 -0.112  0.053
+Surprisal_z:C(structure, Treatment('move'))[T.nomove]                                       -0.052    0.045  -1.168 0.243 -0.139  0.035
+Surprisal_z:C(VerbType, Treatment('CP'))[T.DP]:C(structure, Treatment('move'))[T.nomove]     0.048    0.067   0.728 0.467 -0.082  0.179
+Surprisal_z:C(VerbType, Treatment('CP'))[T.unacc]:C(structure, Treatment('move'))[T.nomove]  0.013    0.056   0.240 0.810 -0.096  0.123
+Participant Var                                                                              0.150                                     
+item Var                                                                                     0.007    0.006                            
+=======================================================================================================================================
+
+  Marginal  R² (fixed effects only): 0.0339
+  Conditional R² (fixed + random):   0.4034
+
+========================================================================
+DESCRIPTIVE MEANS (raw ms)
+========================================================================
+
+First-Pass RT (ms):
+          count          mean       
+structure  move nomove   move nomove
+VerbType                            
+CP          352    358  315.3  312.8
+DP          316    318  281.3  277.2
+unacc       363    363  312.3  294.8
+
+Regression-Path RT (ms):
+          count          mean       
+structure  move nomove   move nomove
+VerbType                            
+CP          352    358  422.9  395.4
+DP          316    318  345.2  347.1
+unacc       363    363  443.0  358.2
